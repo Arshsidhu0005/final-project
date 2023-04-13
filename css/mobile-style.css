@@ -1,0 +1,231 @@
+/* ==== MOBILE-FIRST STYLES ==== */
+
+
+
+.navbar {
+    float: center;
+    background-color: #4a4a4a;
+    width: 100%;
+    height: 420px;
+}
+
+
+#stars {
+    zoom: 0.2;
+}
+
+.navbar button {
+    display: block;
+    background-color: #4a4a4a;
+    color: rgb(228, 188, 31);
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.navbar button:hover {
+    color: #191919;
+    background-color: rgb(228, 188, 31);
+}
+
+
+.navbar input[type="text"] {
+    border-radius: 3px;
+    border: none;
+    position: sticky;
+    left: 130px;
+    font-size: 17px;
+    padding: 8px;
+}
+
+
+i.material-icons {
+    position: relative;
+    top: 8.5px;
+    left: 90px;
+    zoom: 1.4;
+    border: 1px solid;
+    border-color: rgb(228, 188, 31);
+    cursor: pointer;
+}
+
+#intro {
+    height:350px;
+    position: relative;
+}
+
+#intro-img{
+    width: 100%;
+    background-size: cover;
+}
+
+#intro-section {
+    background-color: rgba(0, 0, 0, 0.801);
+    position: absolute;
+    top: 20px;
+    height: 280px;;
+}
+
+#intro-title {
+    z-index: 99;
+    color : white;
+    text-align: left;
+    font-size: 38px;
+    position: absolute;
+    padding-left: 10px;
+}
+
+#intro-description {
+    color : white;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 14px;
+    position: relative;
+    top: 120px;
+}
+
+#intro-btn {
+    z-index: 99;
+    background-color:rgb(228, 188, 31);
+    color: black;
+    left: 10px;
+    position: relative;
+    top: 120px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#intro-btn:hover {
+    background-color:rgb(255, 204, 0);
+}
+
+#col-1 {
+    background-color: rgb(228, 188, 31);
+    padding: 20px;
+}
+
+
+div > img {
+    width: 100%;
+    background-size: cover;
+}
+
+#stars {
+    width: 10%;
+}
+
+div h2{
+    font-size: 28px;;
+}
+
+
+.services div, #col-7, #col-8{
+    background-color: rgb(228, 188, 31);
+    margin: 10px;
+}
+
+h2 ~ p {
+    padding: 20px;
+}
+
+
+p ~ button {
+    background-color: rgb(28, 28, 28);
+    color: white;
+    border: none;
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+#our-vision {
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+}
+
+#our-vision-img {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+#our-vision-title {
+    color : white;
+    text-align: left;
+    font-size: 38px;
+    position: relative;
+    bottom: 300px;
+    margin-left: 10px;
+}
+
+#our-vision-description {
+    color : white;
+    text-align: left;
+    font-size: 14px;
+    position: relative;
+    bottom: 320px;
+    margin-left: 10px;
+}
+
+#our-vision-btn {
+    background-color:rgba(36, 36, 36, 0.689);
+    color: white;
+    margin-left: 10px;
+    justify-content: center;
+    position: relative;
+    bottom: 300px;
+    padding: 20px;
+    border-color:rgb(228, 188, 31);
+}
+
+
+.form input[type=text], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+
+input[type=submit] {
+    background-color: #1b1c1c;
+    color: rgb(228, 188, 31);
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(1) {
+    background-color: rgb(228, 188, 31);
+}
+
+.grid {
+    margin: 10px;
+}
+
+
+footer {
+    background-color:rgb(36, 36, 36);
+    color:rgb(228, 188, 31);
+    padding: 10px;
+}
+
